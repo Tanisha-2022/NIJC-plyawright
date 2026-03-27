@@ -1,0 +1,42 @@
+[app] 
+url = "https://app-fe-chatbot-qa-yr73-bxa2d9fsfshmf3c9.eastus2-01.azurewebsites.net/"
+name = "NIJC Chatbot"                 
+[admin]
+url = "https://uat-admin.azurehosted.app"
+name = "NIJC Admin Portal"
+[credentials]
+admin_email = "vishal.singhal@immigrantjustice.org"
+admin_password = "Debut@123"
+[playwright]
+browser = "chromium"
+headless = false
+viewport = { width = 1280, height = 720 }
+timeout = 30000   
+[language]
+english = "End Chat"
+french = "Terminer le Chat"
+arabic = "إنهاء الدردشة"
+creole = "Fini Chat"
+spanish = "Finalizar Chat"
+[schedule_apmnt]
+request_appointment = "Request a New Appointment"
+followup_appointment = "Request a Follow Up Appointment"
+reschedule_appointment = "Reschedule an Existing Appointment"
+cancel_appointment = "Cancel an Existing Appointment"
+[select]
+Yes = "Yes"
+No = "No"
+[services]
+Detention_Representation = "Detention Representation"
+Asylum = "Asylum"
+U_Visa = "U Visa"
+DACA = "DACA"
+VAWA = "Violence Against Women Act"
+TPS = "Temporary Protected Status"
+Naturalization = "Naturalization/Citizenship"
+Family_Based_Immigration  = "Family Based Immigration"
+Other_Immigration_Assistance = "Other Immigration Assistance"
+[state]
+Indiana =  "Indiana"
+Illinios = "Illinois"
+other = "Other"
