@@ -19,6 +19,9 @@ schedule_appointment = "//span[normalize-space()='Schedule or Change Appointment
 user_selection = "//p[normalize-space()='Schedule or Change Appointment']"
 chatbot_response = "//span[@class='question-route-label']"
 chatbot_options = "//ul[@aria-label='Available options to select']//li//button[contains(@title,'Request a New Appointment')]"
+[userportal]
+login_form = "//div[@class='MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root mui-1wdz1nr']"
+nijc_logo = "//img[@alt='logo']"
 [admin_portal]
 login_with_sso = "//button[@id='login-button']"
 email_input = "//input[@id='i0116']"
