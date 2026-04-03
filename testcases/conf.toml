@@ -5,13 +5,13 @@ name = "NIJC Chatbot"
 url = "https://uat-admin.azurehosted.app"
 name = "NIJC Admin Portal"
 [user]
-url = https://uat-user.azurehosted.app
-name = User Dashboard 
+url = "https://uat-user.azurehosted.app"
+name = "user Dashboard"
 [credentials]
 admin_email = "vishal.singhal@immigrantjustice.org"
 admin_password = "Debut@123"
 user_email = "tanishauat@yopmail.com"
-user_password = "Test@122
+user_password = "Test@122"
 [playwright]
 browser = "chromium"
 headless = false

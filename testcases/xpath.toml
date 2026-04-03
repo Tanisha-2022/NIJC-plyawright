@@ -19,9 +19,48 @@ schedule_appointment = "//span[normalize-space()='Schedule or Change Appointment
 user_selection = "//p[normalize-space()='Schedule or Change Appointment']"
 chatbot_response = "//span[@class='question-route-label']"
 chatbot_options = "//ul[@aria-label='Available options to select']//li//button[contains(@title,'Request a New Appointment')]"
+
+
 [userportal]
 login_form = "//div[@class='MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root mui-1wdz1nr']"
 nijc_logo = "//img[@alt='logo']"
+login_topheading = "//div[@class='MuiStack-root mui-bly4bm']//span"
+email_input = "//input[@id='identifier']"
+password_input = "//input[@id='password']"
+toggle_password = "//button[@aria-label='toggle password visibility']"
+login_button = "//button[@id='submit']"
+user_name = "//span[normalize-space()='tanishauat@yopmail.com']"
+profile_button = "//span[@class='MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignLeft mui-uiaz8l']"
+profile_name = ""
+profile_email = ""
+profile_menu = ""
+language_dropdown = "//input[@id='language']"
+language_option = "//div[@name='language']//button[@title='Open']"
+first_name = "//input[@id='first_name']"
+middle_name = "//input[@id='middle_name']"
+last_name = "//input[@id='last_name']"
+dob = "//input[@id='_r_15_']"
+month = "//div[@id='_r_27_-grid-label']"
+year = "//button[normalize-space()='2004']"
+day = "//button[normalize-space()='8']"
+gender_dropdown = ""
+gender_option = ""
+street = ""
+apt = ""
+state = ""
+state_option = ""
+city = ""
+city_option = ""
+zip = ""
+email = ""
+phone = ""
+save_profile_btn = ""
+
+
+
+
+
+
 [admin_portal]
 login_with_sso = "//button[@id='login-button']"
 email_input = "//input[@id='i0116']"
