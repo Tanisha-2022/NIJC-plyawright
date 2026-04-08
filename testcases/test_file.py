@@ -1,7 +1,7 @@
 import pytest
 import toml
 from playwright.sync_api import Page, expect
- 
+
 @pytest.fixture(scope="session")
 def bot_session(playwright):
     """

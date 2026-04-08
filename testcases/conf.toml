@@ -15,8 +15,8 @@ user_password = "Test@122"
 [playwright]
 browser = "chromium"
 headless = false
-viewport = { width = 1280, height = 720 }
-timeout = 30000   
+viewport = { width = 1480, height = 920 }
+timeout =  80000   
 [language]
 english = "End Chat"
 french = "Terminer le Chat"
